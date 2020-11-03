@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Row, Col, Form, FormControl } from 'react-bootstrap';
+import { Row, Col, Form, FormControl } from 'react-bootstrap';
 
 function NavBar({ getSearch, getlanguage, getsortby }) {
     const [text, setText] = useState('')
@@ -59,7 +59,7 @@ function NavBar({ getSearch, getlanguage, getsortby }) {
                             <option value="de">Deutch</option>
                         </Form.Control>
                     </Col>
-                    <input class="btn btn-primary" type="submit" value="Search" /></Row>
+                    <input className="btn btn-primary" type="submit" value="Search" /></Row>
             </Form>
 
         </>
